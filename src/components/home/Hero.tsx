@@ -112,10 +112,10 @@ export function Hero() {
                 key={item.id}
                 onClick={() => setActiveHeroTab(index)}
                 className={cn(
-                  'relative p-6 text-left cursor-pointer text-xs md:text-[11px] font-semibold uppercase tracking-[0.12em] transition-colors duration-300',
+                  'relative px-6 py-4 text-left cursor-pointer text-xs md:text-[11px] font-semibold uppercase tracking-[0.12em] transition-colors duration-300',
                   isActive
                     ? 'bg-lime text-ink'
-                    : 'bg-cream/95 text-ink/70 backdrop-blur-sm hover:bg-cream'
+                    : ' text-white '
                 )}
               >
                 {item.badge}
