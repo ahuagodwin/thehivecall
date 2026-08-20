@@ -22,7 +22,7 @@ export function IndustriesBentoGrid() {
           {INDUSTRY_CARDS.map((card) => (
             <motion.button
               key={card.id}
-              onClick={() => navigate(`/industries/${card.slug}`)}
+              // onClick={() => navigate(`/industries/${card.slug}`)}
               variants={fadeUp}
               whileHover={{ y: -4 }}
               className={cn(
