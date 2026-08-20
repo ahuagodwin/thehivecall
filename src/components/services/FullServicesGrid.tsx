@@ -28,7 +28,7 @@ export function FullServicesGrid() {
           whileInView="visible"
           viewport={{ once: true, margin: '-80px' }}
           variants={staggerContainer}
-          className="mt-16 grid w-full grid-cols-2 gap-5 text-left lg:grid-cols-4"
+          className="mt-16 grid w-full grid-cols-1 gap-5 text-left md:grid-cols-2 lg:grid-cols-4"
         >
           {SERVICES_GRID_ITEMS.map((service) => (
             <motion.a
