@@ -30,8 +30,7 @@ export function Footer() {
         <Reveal className="-mb-20 rounded-[28px] bg-ink-soft px-8 py-10 shadow-2xl md:px-14">
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <p className="max-w-md text-lg text-white/90">
-              Subscribe to Execor Insights, our monthly look at the critical issues facing
-              global businesses.
+              Subscribe to TheHiveCall Insights, our monthly look at the key technology, cybersecurity, fintech, and digital transformation trends shaping modern businesses.
             </p>
             <form onSubmit={handleSubmit} className="flex w-full max-w-md items-center gap-3">
               <div className="flex-1">

@@ -115,7 +115,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <button
+          {/* <button
             aria-label="Search"
             className={cn(
               'hidden h-11 w-11 items-center justify-center rounded-full border transition-colors sm:flex',
@@ -125,7 +125,7 @@ export function Header() {
             )}
           >
             <SearchIcon className="h-4.5 w-4.5" />
-          </button>
+          </button> */}
           <button
             onClick={() => goTo('/contact-us')}
             className="hidden rounded-full bg-lime px-6 py-3 text-sm font-semibold text-ink transition-colors hover:bg-lime-dark md:inline-flex"
