@@ -20,7 +20,7 @@ export function ContactSection() {
             <motion.span
               key={logo.id}
               variants={fadeIn}
-              className="font-display text-lg text-ink/40 grayscale transition-all hover:text-ink hover:grayscale-0 md:text-xl"
+              className="font-display text-lg text-ink/40 grayscale transition-all hover:text-lime hover:grayscale-0 md:text-xl"
             >
               {logo.name}
             </motion.span>

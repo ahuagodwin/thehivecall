@@ -247,7 +247,7 @@ export const CLIENT_LOGOS: ClientLogo[] = [
   { id: 'stripe', name: 'Stripe' },
   { id: 'google', name: 'Google' },
   { id: 'wise', name: 'Wise' },
-  { id: 'grey', name: 'Grey' },
   { id: 'paystack', name: 'Paystack' },
   { id: 'flutterwave', name: 'Flutterwave' },
+   { id: 'baddietalk', name: 'BaddieTalk' },
 ]

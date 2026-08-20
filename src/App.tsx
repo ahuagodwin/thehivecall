@@ -28,8 +28,11 @@ import { HEALTHCARE_INDUSTRY } from './data/industries/healthcare.data'
 import { TELECOMMUNICATIONS_INDUSTRY } from './data/industries/telecommunications.data'
 import { ENERGY_UTILITIES_INDUSTRY } from './data/industries/energy-utilities.data'
 import { EDUCATION_INDUSTRY } from './data/industries/education.data'
+import { useDisableContextMenu } from './hooks/useDisableContextMenu'
 
 function App() {
+    useDisableContextMenu()
+    
   return (
     <BrowserRouter>
       <ScrollToHash />
