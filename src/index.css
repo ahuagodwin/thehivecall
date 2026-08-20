@@ -4,25 +4,30 @@
   --font-display: 'Fraunces', 'Georgia', serif;
   --font-sans: 'Manrope', 'Inter', system-ui, sans-serif;
 
-  --color-ink: #16302b;
-  --color-ink-light: #234840;
-  --color-ink-soft: #2f5148;
-  --color-lime: #c6ef4f;
-  --color-lime-dark: #b3dd3a;
-  --color-cream: #f5f2ec;
-  --color-cream-dark: #efece3;
-  --color-sand: #e8e4d8;
+   --color-ink: #0B1220;
+  --color-ink-light: #162238;
+  --color-ink-soft: #24344D;
+
+  --color-lime: #22D3C5;
+  --color-lime-dark: #14B8A6;
+
+  --color-cream: #F5F7F2;
+  --color-cream-dark: #E9EDE5;
+  --color-sand: #DDE3D8;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+
 body {
   font-family: var(--font-sans);
   color: var(--color-ink);
   background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
+  user-select: none;
+
 }
 
 h1, h2, h3, h4, .font-display {
