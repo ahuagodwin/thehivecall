@@ -46,7 +46,7 @@ export const SOFTWARE_DEVELOPMENT_SERVICE: ServiceDetailConfig = {
     eyebrow: 'BUILDING FOR GROWTH',
     heading: 'Achieving Your Product Vision',
     paragraph:
-      "Planning for scale is essential to your product's long-term success. At Chiscript, our experienced team collaborates with you to identify your product goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.",
+      "Planning for scale is essential to your product's long-term success. At TheHiveCall, our experienced team collaborates with you to identify your product goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.",
     image:
       'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop',
   },
@@ -101,6 +101,6 @@ export const SOFTWARE_DEVELOPMENT_SERVICE: ServiceDetailConfig = {
     buttonLabel: 'Schedule a Call',
     image:
       'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2000&auto=format&fit=crop',
-    imageAlt: 'Chiscript engineers pairing on a software release',
+    imageAlt: 'TheHiveCall engineers pairing on a software release',
   },
 }

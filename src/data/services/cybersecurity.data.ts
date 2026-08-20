@@ -46,7 +46,7 @@ export const CYBERSECURITY_SERVICE: ServiceDetailConfig = {
     eyebrow: 'PREPARING FOR THREATS',
     heading: 'Achieving Your Security Vision',
     paragraph:
-      "Planning for resilience is essential to your organization's long-term security. At Chiscript, our experienced team collaborates with you to identify your risk landscape and crafts a tailored, comprehensive strategy to help you defend it with confidence.",
+      "Planning for resilience is essential to your organization's long-term security. At TheHiveCall, our experienced team collaborates with you to identify your risk landscape and crafts a tailored, comprehensive strategy to help you defend it with confidence.",
     image:
       'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop',
   },
@@ -101,6 +101,6 @@ export const CYBERSECURITY_SERVICE: ServiceDetailConfig = {
     buttonLabel: 'Schedule a Call',
     image:
       'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2000&auto=format&fit=crop',
-    imageAlt: 'Chiscript security analysts reviewing a client\u2019s risk assessment',
+    imageAlt: 'TheHiveCall security analysts reviewing a client\u2019s risk assessment',
   },
 }

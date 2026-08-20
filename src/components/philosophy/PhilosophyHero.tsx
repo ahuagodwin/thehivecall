@@ -24,7 +24,7 @@ export function PhilosophyHero() {
         <Reveal variants={scaleIn} delay={0.12} className="overflow-hidden rounded-t-3xl">
           <img
             src={PHILOSOPHY_HERO.image}
-            alt="A Chiscript advisor walking a client through their technology roadmap"
+            alt="A TheHiveCall advisor walking a client through their technology roadmap"
             className="h-[420px] w-full object-cover md:h-[560px]"
           />
         </Reveal>

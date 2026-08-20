@@ -46,7 +46,7 @@ export const TRAINING_SERVICE: ServiceDetailConfig = {
     eyebrow: 'INVESTING IN PEOPLE',
     heading: "Achieving Your Team's Potential",
     paragraph:
-      "Planning for capability is essential to your organization's long-term success. At Chiscript, our experienced team collaborates with you to identify your skill gaps and crafts a tailored, comprehensive training strategy to help you close them with confidence.",
+      "Planning for capability is essential to your organization's long-term success. At TheHiveCall, our experienced team collaborates with you to identify your skill gaps and crafts a tailored, comprehensive training strategy to help you close them with confidence.",
     image:
       'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop',
   },
@@ -101,6 +101,6 @@ export const TRAINING_SERVICE: ServiceDetailConfig = {
     buttonLabel: 'Schedule a Call',
     image:
       'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2000&auto=format&fit=crop',
-    imageAlt: 'A Chiscript trainer leading a hands-on workshop',
+    imageAlt: 'A TheHiveCall trainer leading a hands-on workshop',
   },
 }

@@ -46,7 +46,7 @@ export const PRODUCTS_SERVICE: ServiceDetailConfig = {
     eyebrow: 'READY TO DEPLOY',
     heading: 'Achieving Your Rollout Vision',
     paragraph:
-      "Planning for adoption is essential to your team's long-term productivity. At Chiscript, our experienced team collaborates with you to identify your workflow goals and crafts a tailored, comprehensive rollout plan to help you achieve them with confidence.",
+      "Planning for adoption is essential to your team's long-term productivity. At TheHiveCall, our experienced team collaborates with you to identify your workflow goals and crafts a tailored, comprehensive rollout plan to help you achieve them with confidence.",
     image:
       'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop',
   },
@@ -101,6 +101,6 @@ export const PRODUCTS_SERVICE: ServiceDetailConfig = {
     buttonLabel: 'Schedule a Call',
     image:
       'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2000&auto=format&fit=crop',
-    imageAlt: 'A Chiscript product specialist onboarding a client team',
+    imageAlt: 'A TheHiveCall product specialist onboarding a client team',
   },
 }

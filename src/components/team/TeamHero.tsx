@@ -24,7 +24,7 @@ export function TeamHero() {
         <Reveal variants={scaleIn} delay={0.12} className="overflow-hidden rounded-t-3xl">
           <img
             src={TEAM_HERO.image}
-            alt="The Chiscript team collaborating around a table"
+            alt="The TheHiveCall team collaborating around a table"
             className="h-105 w-full object-cover md:h-140"
           />
         </Reveal>

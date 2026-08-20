@@ -25,7 +25,7 @@ export function Industries() {
         </Reveal>
         <Reveal delay={0.08}>
           <h2 className="mt-6 max-w-xl font-display text-4xl font-medium leading-tight text-ink md:text-5xl">
-            Our Experience Spans Every Industry and Challenge
+            Innovating Across Industries and Business Challenges
           </h2>
         </Reveal>
 

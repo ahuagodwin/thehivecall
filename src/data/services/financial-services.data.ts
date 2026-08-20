@@ -46,7 +46,7 @@ export const FINANCIAL_SERVICES_SERVICE: ServiceDetailConfig = {
     eyebrow: 'PREPARING FOR YOUR FUTURE',
     heading: 'Achieving Your Financial Vision',
     paragraph:
-      'Planning for growth is essential to your long-term financial well-being. At Chiscript, our experienced team collaborates with you to identify your investment goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.',
+      'Planning for growth is essential to your long-term financial well-being. At TheHiveCall, our experienced team collaborates with you to identify your investment goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.',
     image:
       'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop',
   },
@@ -101,6 +101,6 @@ export const FINANCIAL_SERVICES_SERVICE: ServiceDetailConfig = {
     buttonLabel: 'Schedule a Call',
     image:
       'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2000&auto=format&fit=crop',
-    imageAlt: 'A Chiscript advisor reviewing an investment plan with a client',
+    imageAlt: 'A TheHiveCall advisor reviewing an investment plan with a client',
   },
 }

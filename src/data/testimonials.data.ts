@@ -2,69 +2,69 @@ import type { ReviewItem } from '@app-types/index'
 import { CLIENT_LOGOS } from './home.data'
 
 export const TESTIMONIALS_HERO = {
-  eyebrow: 'TESTIMONIALS',
-  headingPrefix: 'Verified Client ',
-  headingAccent: 'Feedback',
+  eyebrow: 'CLIENT TESTIMONIALS',
+  headingPrefix: 'What Our ',
+  headingAccent: 'Clients Say',
   subtitle:
-    "Discover how our expert technology consulting has helped businesses thrive, with trusted feedback from those who've worked with us.",
+    'Discover how our technology solutions, consulting expertise, and strategic support help businesses solve challenges, improve operations, and achieve sustainable growth.',
   googleScore: '4.9',
-  googleLabel: 'GOOGLE REVIEWS',
-}
+  googleLabel: 'CLIENT REVIEWS',
+};
 
 export { CLIENT_LOGOS as TESTIMONIALS_CLIENT_LOGOS }
 
 export const REVIEWS_SECTION = {
-  eyebrow: 'REVIEWS',
-  headingPrefix: 'Client ',
+  eyebrow: 'CLIENT FEEDBACK',
+  headingPrefix: 'Real ',
   headingAccent: 'Experiences',
-  headingSuffix: ' That Speak for Themselves',
-}
+  headingSuffix: ' From Businesses We Support',
+};
 
 export const REVIEWS: ReviewItem[] = [
   {
-    id: 'carlos',
+    id: 'michael',
     quote:
-      'I hired Chiscript for a small cybersecurity audit & was very happy. He not only answered all my questions, but he didn\u2019t treat me like a "small project". I was very satisfied & would recommend.',
-    author: 'Carlos Martines',
-    role: 'H&N \\ CEO & PRESIDENT',
+      'The team understood our business from the start and delivered a secure, reliable solution that improved the way we operate. Their technical expertise and attention to detail were exceptional.',
+    author: 'Michael Adeyemi',
+    role: 'FINTECH — CEO',
     avatar:
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop',
   },
   {
-    id: 'ben',
+    id: 'sarah',
     quote:
-      'Partnering with Chiscript was a game-changer for us. They took the time to understand our infrastructure challenges and helped us streamline our operations for success.',
-    author: 'Ben Limes',
-    role: 'MEX \u2014 CEO',
+      'Working with the team was a great experience. They turned our ideas into a practical digital solution and guided us through every stage of development.',
+    author: 'Sarah Williams',
+    role: 'TECH COMPANY — CTO',
+    avatar:
+      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop',
+  },
+  {
+    id: 'david',
+    quote:
+      'Their cybersecurity expertise gave us greater confidence in our digital infrastructure. They identified key risks and helped us build a stronger security foundation.',
+    author: 'David Okafor',
+    role: 'FINANCIAL SERVICES — CIO',
     avatar:
       'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop',
   },
   {
-    id: 'kate',
+    id: 'jennifer',
     quote:
-      'Chiscript has been instrumental in our growth. Their team took the time to truly understand our systems and helped us eliminate operational inefficiencies.',
-    author: 'Kate Smith',
-    role: 'KONSTRUKTION \u2014 COO',
+      'What stood out was their ability to combine business strategy with technology. They were responsive, professional, and focused on delivering measurable results.',
+    author: 'Jennifer Carter',
+    role: 'RETAIL & E-COMMERCE — COO',
     avatar:
       'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
   },
-  {
-    id: 'suzane',
-    quote:
-      'Chiscript went above and beyond with our blockchain integration needs. They treated us like a priority and provided valuable insights that really helped our business grow. Highly recommend!',
-    author: 'Suzane Claris',
-    role: 'META MEX \u2014 CFO',
-    avatar:
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop',
-  },
-]
+];
 
 export const TESTIMONIALS_CTA = {
-  eyebrow: 'TRUSTED PARTNER',
-  heading: 'Building a Secure Digital Foundation',
+  eyebrow: 'LET’S BUILD TOGETHER',
+  heading: 'Turn Your Technology Vision Into Reality',
   subtitle:
-    'We help you achieve your vision and cultivate confidence and peace of mind across your digital transformation journey.',
-  buttonLabel: 'Free Consultation',
+    'From strategy to implementation, we provide the expertise and technology solutions you need to build securely, scale confidently, and grow your business.',
+  buttonLabel: 'Start a Conversation',
   image:
-    'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1400&auto=format&fit=crop',
-}
+    'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?q=80&w=1400&auto=format&fit=crop',
+};

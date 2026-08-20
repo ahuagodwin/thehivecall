@@ -52,7 +52,7 @@ export function CorePrinciplesSection() {
           <motion.div variants={fadeUp} className="overflow-hidden rounded-[28px]">
             <img
               src={CORE_PRINCIPLES.centerImage}
-              alt="A Chiscript advisor meeting with a client team"
+              alt="A TheHiveCall advisor meeting with a client team"
               className="h-full min-h-[420px] w-full object-cover"
             />
           </motion.div>

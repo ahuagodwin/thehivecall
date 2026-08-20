@@ -2,51 +2,52 @@ import { SITE_CONFIG } from '@config/site.config'
 
 export const PHILOSOPHY_HERO = {
   eyebrow: 'OUR PHILOSOPHY',
-  headingPrefix: 'Your Digital ',
-  headingAccent: 'Security',
-  headingSuffix: ' Comes First',
+  headingPrefix: 'Technology with ',
+  headingAccent: 'Purpose',
+  headingSuffix: ' and Impact',
   image:
-    'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2000&auto=format&fit=crop',
+    'https://images.pexels.com/photos/8112106/pexels-photo-8112106.jpeg?q=80&w=2000&auto=format&fit=crop',
 }
 
 export const CORE_PRINCIPLES = {
   eyebrow: 'CORE PRINCIPLES',
-  headingPrefix: 'Personalized ',
-  headingAccent: 'Technology Guidance',
-  headingSuffix: ' Rooted in Core Values',
-  paragraph: `Every client is unique, and every technology journey is different. At ${SITE_CONFIG.name}, we embrace this individuality while staying true to our core principles and values. Our success is built on a deep understanding of these guiding principles, allowing us to navigate the ever-evolving digital landscape and deliver tailored solutions that truly serve our clients.`,
+  headingPrefix: 'Building ',
+  headingAccent: 'Better Technology',
+  headingSuffix: ' Through Trust and Innovation',
+  paragraph: `At ${SITE_CONFIG.name}, we believe technology should solve real problems, create measurable value, and support long-term growth. We combine strategic thinking, technical expertise, and a client-first approach to deliver solutions that are secure, scalable, and built for the future.`,
   purposeCard: {
     tag: 'PURPOSE',
-    title: 'Aligning Innovation with Purpose',
+    title: 'Technology That Serves Your Goals',
     description:
-      'Your task is to identify what truly matters in your business and operations. Our role is to listen, understand, and ensure your technology supports your goals. Your success and satisfaction are our greatest rewards.',
+      'We start by understanding your business, your customers, and your objectives. Every solution we develop is designed to create meaningful value and move your organization closer to its goals.',
   },
   commitmentCard: {
     tag: 'COMMITMENT',
-    title: 'A Partnership Built on Commitment',
+    title: 'Partnership Beyond Delivery',
     description:
-      "We take the time to understand your goals and challenges—not just for today, but for the future. With this insight, we create a personalized strategy that seamlessly integrates security, innovation, and growth. Our commitment extends beyond delivery; we invest in building a lasting relationship and expect the same level of dedication from you.",
+      'We work alongside our clients from strategy through implementation and beyond. Our commitment is to provide dependable expertise, transparent communication, and solutions that continue to deliver value as your business evolves.',
   },
   centerImage:
-    'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop',
+    'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?q=80&w=1200&auto=format&fit=crop',
 }
 
 export const MISSION_SECTION = {
-  eyebrow: 'MISSION',
-  headingPrefix: 'Building a ',
-  headingAccent: 'Strong',
-  headingSuffix: ' Digital Foundation',
+  eyebrow: 'OUR MISSION',
+  headingPrefix: 'Creating a ',
+  headingAccent: 'Smarter',
+  headingSuffix: ' Digital Future',
   paragraph:
-    "Technology success isn't magic—it's built on a solid foundation. A secure infrastructure, resilient systems, robust risk management, and protection for your data are key. Our mission is to guide you every step of the way.",
-  buttonLabel: 'Schedule a Call',
+    'Our mission is to help businesses use technology with confidence. We build secure systems, scalable digital platforms, and innovative solutions that improve operations, strengthen resilience, and create opportunities for sustainable growth.',
+  buttonLabel: 'Talk to Our Experts',
 }
 
 export const WHY_US_OVERLAY = {
-  eyebrow: 'WHY US?',
-  headingPrefix: "You'll Know What ",
-  headingHighlight: 'Steps to Take Next',
-  subtitle: 'We are Transparent Like that. No Gimmicks.',
-  buttonLabel: 'Schedule a Call',
+  eyebrow: 'WHY CHOOSE US?',
+  headingPrefix: 'The Right Technology ',
+  headingHighlight: 'Starts with the Right Partner',
+  subtitle:
+    'Practical expertise, transparent guidance, and innovative solutions focused on your business goals.',
+  buttonLabel: 'Start a Conversation',
   image:
-    'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2000&auto=format&fit=crop',
+    'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?q=80&w=2000&auto=format&fit=crop',
 }

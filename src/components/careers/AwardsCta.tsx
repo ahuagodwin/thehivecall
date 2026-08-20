@@ -16,7 +16,7 @@ export function AwardsCta() {
         <Reveal variants={fadeUp} className="relative overflow-hidden rounded-4xl">
           <img
             src={AWARDS_CTA.image}
-            alt="Chiscript team members reviewing a project together"
+            alt="TheHiveCall team members reviewing a project together"
             className="h-full min-h-95 w-full object-cover"
           />
           <div className="absolute bottom-6 right-6 flex flex-col items-center justify-center rounded-xl bg-white px-4 py-3.5 text-center shadow-lg">

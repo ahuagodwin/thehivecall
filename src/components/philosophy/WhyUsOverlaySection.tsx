@@ -15,7 +15,7 @@ export function WhyUsOverlaySection() {
         <Reveal variants={fadeUp} className="relative overflow-hidden rounded-[32px]">
           <img
             src={WHY_US_OVERLAY.image}
-            alt="A Chiscript client meeting over coffee"
+            alt="A TheHiveCall client meeting over coffee"
             className="h-[480px] w-full object-cover md:h-[620px]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />

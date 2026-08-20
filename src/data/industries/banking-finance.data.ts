@@ -74,7 +74,7 @@ export const BANKING_FINANCE_INDUSTRY: IndustryDetailConfig = {
   ],
   caseStudy: {
     quote:
-      'Chiscript modernized our core banking platform without a single hour of unplanned downtime.',
+      'TheHiveCall modernized our core banking platform without a single hour of unplanned downtime.',
     author: 'Rebecca Roy',
     role: 'H&N \u2014 CEO & PRESIDENT',
     metricValue: '1.6x',

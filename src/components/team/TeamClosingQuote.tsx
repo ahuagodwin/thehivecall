@@ -14,7 +14,7 @@ export function TeamClosingQuote() {
         <Reveal variants={fadeUp} className="relative overflow-hidden rounded-[32px]">
           <img
             src={TEAM_CLOSING.image}
-            alt="A Chiscript team member smiling in the office"
+            alt="A TheHiveCall team member smiling in the office"
             className="h-[480px] w-full object-cover md:h-[600px]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />

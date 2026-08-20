@@ -1,20 +1,20 @@
-import type { TeamMember, TeamMemberStructure } from '@app-types/index'
+import type { TeamMemberStructure } from '@app-types/index'
 
 export const TEAM_HERO = {
-  eyebrow: 'TEAM',
-  headingPrefix: 'A ',
-  headingAccent: 'Culture',
-  headingSuffix: ' Built on Collaboration and Passion',
+  eyebrow: 'OUR TEAM',
+  headingPrefix: 'People Behind ',
+  headingAccent: 'Innovation',
+  headingSuffix: ' and Impact',
   image:
-    'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2000&auto=format&fit=crop',
+    'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?q=80&w=2000&auto=format&fit=crop',
 }
 
 export const OUR_PEOPLE = {
   eyebrow: 'OUR PEOPLE',
-  headingAccent: 'Empowering',
-  headingSuffix: ' with Expertise & Experience',
+  headingAccent: 'Experts',
+  headingSuffix: ' Building What Comes Next',
   paragraph:
-    'Our team is made up of seasoned technology professionals with extensive experience in cybersecurity, software engineering, blockchain, and IT consultancy. We are dedicated to leveraging our knowledge and skills to support and guide businesses, helping them navigate challenges and achieve digital success.',
+    'Our team brings together experienced professionals across software engineering, cybersecurity, fintech, cloud technology, product design, and business strategy. We combine diverse perspectives and practical expertise to create secure, scalable solutions that help businesses grow and compete in a digital world.',
 }
 
 export const LEADERSHIP: TeamMemberStructure[] = [
@@ -22,98 +22,94 @@ export const LEADERSHIP: TeamMemberStructure[] = [
     caption: 'Leadership',
     team: [
       {
-        id: 'chidi',
-        name: 'Chidi Ahua',
-        role: 'Co-FOUNDER & CEO',
+        id: 'aylwin',
+        name: 'AYLwin',
+        role: 'CO-FOUNDER & CEO',
         avatar:
-          'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?q=80&w=400&auto=format&fit=crop',
       },
-
+      {
+        id: 'phil',
+        name: 'Phil',
+        role: 'CHIEF TECHNOLOGY OFFICER',
+        avatar:
+          'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?q=80&w=400&auto=format&fit=crop',
+      },
       {
         id: 'chidera',
         name: 'Chidera Chukwunyere',
-        role: 'Head, Human Resources',
+        role: 'HEAD OF HUMAN RESOURCES',
         avatar:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop',
-      },
-
-      {
-        id: 'seun',
-        name: 'Seun Olagunle',
-        role: 'CHIEF TECHNOLOGY OFFICER',
-        avatar:
-          'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?q=80&w=400&auto=format&fit=crop',
       },
       {
         id: 'cynthia',
         name: 'Cynthia Nwobodo',
-        role: 'HEAD, CYBERSECURITY',
+        role: 'HEAD OF CYBERSECURITY',
         avatar:
-          'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?q=80&w=400&auto=format&fit=crop',
       },
-
       {
         id: 'olivia',
         name: 'Olivia Ezebalike',
-        role: 'Head, Operations',
+        role: 'HEAD OF OPERATIONS',
         avatar:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?q=80&w=400&auto=format&fit=crop',
       },
-
       {
         id: 'rita',
         name: 'Rita Paul',
-        role: 'Chief Financial Officer',
+        role: 'CHIEF FINANCIAL OFFICER',
         avatar:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?q=80&w=400&auto=format&fit=crop',
       },
       {
         id: 'tunde',
         name: 'Tunde Bakare',
         role: 'VP OF ENGINEERING',
         avatar:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?q=80&w=400&auto=format&fit=crop',
       },
-
       {
         id: 'bright',
         name: 'Bright Chimezie',
-        role: 'Head, Product Design ( UI/UX )',
+        role: 'HEAD OF PRODUCT DESIGN (UI/UX)',
         avatar:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?q=80&w=400&auto=format&fit=crop',
       },
     ],
   },
+
   {
     caption: 'Advisors',
     team: [
       {
         id: 'sarah',
         name: 'Sarah Mitchell',
-        role: 'PARTNER / ADVISOR',
+        role: 'STRATEGY ADVISOR',
         avatar:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?q=80&w=400&auto=format&fit=crop',
       },
       {
         id: 'david',
         name: 'David Chen',
-        role: 'PARTNER / ADVISOR',
+        role: 'TECHNOLOGY ADVISOR',
         avatar:
-          'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?q=80&w=400&auto=format&fit=crop',
       },
       {
         id: 'amara',
         name: 'Amara Johnson',
-        role: 'PARTNER / ADVISOR',
+        role: 'BUSINESS ADVISOR',
         avatar:
-          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?q=80&w=400&auto=format&fit=crop',
       },
       {
         id: 'kwame',
         name: 'Kwame Mensah',
-        role: 'PARTNER / ADVISOR',
+        role: 'FINANCE & GROWTH ADVISOR',
         avatar:
-          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop',
+          'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?q=80&w=400&auto=format&fit=crop',
       },
     ],
   },
@@ -121,10 +117,10 @@ export const LEADERSHIP: TeamMemberStructure[] = [
 
 export const TEAM_CLOSING = {
   quote:
-    "At Chiscript, our culture is built on client-first values, continuous improvement, and passion for our work. If you're seeking intellectual challenge and a company that feels like home, Chiscript is the place for you.",
-  author: 'Ngozi Bello',
-  role: 'HEAD OF CYBERSECURITY',
+    'Great technology starts with great people. We are a team driven by curiosity, collaboration, continuous learning, and a shared commitment to creating meaningful solutions for our clients.',
+  author: 'TheHiveCall Team',
+  role: 'THE HIVE CALL LLC',
   image:
-    'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2000&auto=format&fit=crop',
-  careersLabel: 'Careers',
+    'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?q=80&w=2000&auto=format&fit=crop',
+  careersLabel: 'Join Our Team',
 }

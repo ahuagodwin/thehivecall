@@ -77,7 +77,7 @@ export const HEALTHCARE_INDUSTRY: IndustryDetailConfig = {
   ],
   caseStudy: {
     quote:
-      'We wouldn\u2019t have gotten to where we are today without Chiscript. The team spent time understanding our infrastructure and where our vulnerabilities were.',
+      'We wouldn\u2019t have gotten to where we are today without TheHiveCall. The team spent time understanding our infrastructure and where our vulnerabilities were.',
     author: hnStory.author,
     role: hnStory.role,
     metricValue: hnStory.metricValue,

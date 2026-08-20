@@ -1,34 +1,34 @@
 import type { ServiceItem, StatItem } from '@app-types/index'
 
 export const SERVICES_HERO = {
-  eyebrow: 'SERVICES OVERVIEW',
-  headingPrefix: 'We Craft ',
-  headingAccent: 'Impactful',
-  headingSuffix: ' Outcomes for You and Your Business',
-  image:
-    'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2000&auto=format&fit=crop',
-}
+  eyebrow: 'OUR SERVICES',
+  headingPrefix: 'Technology That ',
+  headingAccent: 'Drives',
+  headingSuffix: ' Growth and Business Transformation',
+   image:
+    'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?q=80&w=2000&auto=format&fit=crop',
+};
 
 export interface TwoToneStat extends StatItem {
   suffix?: string
 }
 
 export const WHAT_WE_DO = {
-  eyebrow: 'WHAT WE DO?',
-  headingPrefix: 'Empowering Businesses ',
-  headingAccent: 'with Strategic Guidance',
-  headingSuffix: ' and Hands-On Support',
+  eyebrow: 'WHAT WE DO',
+  headingPrefix: 'Turning Technology ',
+  headingAccent: 'Into Business Value',
+  headingSuffix: ' Through Innovation and Expertise',
   paragraphs: [
-    'We partner with startups and small businesses, from the initial idea stage to enterprise scale. Blending the roles of technical advisors and engineers, we provide guidance where possible and step in when needed. This unique mix makes us more effective than traditional consultants and more affordable than most system integrators—we\u2019re here to teach, not just execute.',
-    'Our clients are visionary innovators focused on product, security, and growth. We enhance their strengths with structured technology guidance, helping them make data-driven decisions and scale efficiently.',
+    'We help businesses turn complex technology challenges into practical, scalable solutions. From software development and cybersecurity to fintech, digital transformation, and technology consulting, we combine strategic thinking with hands-on technical expertise.',
+    'Our approach is built around understanding your business, identifying the right opportunities, and delivering solutions that improve efficiency, strengthen security, and support sustainable growth.',
   ],
   stats: [
-    { id: 'savings', value: '$3.4', suffix: 'M', label: 'IN CLIENT SAVINGS DELIVERED' },
-    { id: 'projects', value: '500', suffix: '+', label: 'PROJECTS DELIVERED' },
-    { id: 'costs', value: '30', suffix: '%', label: 'OPTIMIZE OPERATIONS TO CUT COSTS' },
-    { id: 'efficiency', value: '>200', suffix: '%', label: 'INCREASE IN OPERATIONAL EFFICIENCY' },
+    { id: 'savings', value: '40', suffix: '%', label: 'AVERAGE PROCESS EFFICIENCY GAIN' },
+    { id: 'projects', value: '100', suffix: '+', label: 'DIGITAL PROJECTS DELIVERED' },
+    { id: 'costs', value: '35', suffix: '%', label: 'AVERAGE OPERATIONAL COST REDUCTION' },
+    { id: 'efficiency', value: '2', suffix: 'x', label: 'FASTER DIGITAL DELIVERY' },
   ] as TwoToneStat[],
-}
+};
 
 export interface ServiceTier {
   id: string
@@ -38,55 +38,55 @@ export interface ServiceTier {
 
 export const WHY_CHOOSE_US = {
   eyebrow: 'WHY CHOOSE US',
-  headingPrefix: 'Customized Services for ',
-  headingAccent: 'Every Stage',
-  headingSuffix: ' of Your Business',
+  headingPrefix: 'Technology Solutions ',
+  headingAccent: 'Built for',
+  headingSuffix: ' Your Business Journey',
   tiers: [
     {
       id: 'startups',
-      title: 'Startups & Idea Stage',
+      title: 'Startups & New Ventures',
       items: [
-        'Technical feasibility review',
-        'MVP architecture planning',
-        'Security-by-design consulting',
-        'Tech stack selection',
-        'Market & competitor research',
-        'Idea testing & viability',
+        'Product & technical strategy',
+        'MVP design and development',
+        'Technology stack selection',
+        'Secure system architecture',
+        'Product validation & research',
+        'Scalable foundation planning',
       ],
     },
     {
       id: 'growing',
       title: 'Growing Businesses',
       items: [
-        'Cybersecurity audits',
-        'Cloud infrastructure setup',
-        'Access to developer network',
-        'Data & analytics guidance',
-        'Go-to-market tech strategy',
-        'Scale-up architecture',
+        'Custom software development',
+        'Cybersecurity assessment',
+        'Cloud & infrastructure solutions',
+        'System integration & automation',
+        'Data & analytics solutions',
+        'Technology scaling strategy',
       ],
     },
     {
       id: 'enterprise',
-      title: 'Enterprise & Scale',
+      title: 'Enterprise & Organizations',
       items: [
-        'Enterprise security operations',
-        'Blockchain & fintech integration',
-        'Partnership & vendor arrangements',
-        'Advanced analytics & AI',
-        'Compliance & risk management',
-        'Digital transformation strategy',
+        'Enterprise software solutions',
+        'Fintech & financial technology',
+        'Advanced cybersecurity',
+        'Digital transformation',
+        'Risk & compliance management',
+        'Technology consulting & strategy',
       ],
     },
   ] as ServiceTier[],
-}
+};
 
 export const FULL_SERVICES_SECTION = {
-  eyebrow: 'SERVICES',
-  headingPrefix: 'We Offer a ',
-  headingAccent: 'Full Scale',
-  headingSuffix: ' of Services to Meet your Needs',
-}
+  eyebrow: 'OUR SERVICES',
+  headingPrefix: 'End-to-End ',
+  headingAccent: 'Technology',
+  headingSuffix: ' Solutions for Modern Businesses',
+};
 
 export const SERVICES_GRID_ITEMS: ServiceItem[] = [
   {
@@ -94,15 +94,15 @@ export const SERVICES_GRID_ITEMS: ServiceItem[] = [
     icon: 'shield',
     title: 'Cybersecurity',
     image:
-      'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
   {
-    id: 'blockchain',
-    icon: 'link',
-    title: 'Blockchain Solutions',
+    id: 'fintech',
+    icon: 'coins',
+    title: 'Fintech & Financial Solutions',
     image:
-      'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/37594389/pexels-photo-37594389.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
   {
@@ -110,31 +110,31 @@ export const SERVICES_GRID_ITEMS: ServiceItem[] = [
     icon: 'code',
     title: 'Software Development',
     image:
-      'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
   {
     id: 'consultancy',
     icon: 'bank',
-    title: 'IT Consultancy',
+    title: 'Technology Consultancy',
     image:
-      'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
   {
     id: 'products',
     icon: 'box',
-    title: 'Products',
+    title: 'Digital Products',
     image:
-      'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
   {
     id: 'financial',
     icon: 'coins',
-    title: 'Financial Services & Investment',
+    title: 'Financial & Investment Services',
     image:
-      'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
   {
@@ -142,29 +142,29 @@ export const SERVICES_GRID_ITEMS: ServiceItem[] = [
     icon: 'cap',
     title: 'Training & Capacity Building',
     image:
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
   {
     id: 'cloud',
     icon: 'ai',
-    title: 'Cloud & Data Analytics',
+    title: 'Cloud & Data Solutions',
     image:
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#',
   },
-]
+];
 
 export const RESULTS_CTA = {
-  heading: 'Unique Service Combinations Lead to Faster, Better Results',
-}
+  heading: 'Smart Technology Solutions That Drive Real Business Results',
+};
 
 export const SERVICES_WHY_US_OVERLAY = {
-  eyebrow: 'WHY US?',
-  headingPrefix: "You'll Know What ",
-  headingHighlight: 'Builds Resilience',
-  subtitle: 'We are Transparent Like that. No Gimmicks.',
-  buttonLabel: 'Schedule a Call',
+  eyebrow: 'WHY CHOOSE US?',
+  headingPrefix: 'Technology That ',
+  headingHighlight: 'Moves Your Business Forward',
+  subtitle: 'Practical solutions, transparent guidance, and expertise you can rely on.',
+  buttonLabel: 'Talk to Our Experts',
   image:
-    'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2000&auto=format&fit=crop',
-}
+    'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?q=80&w=2000&auto=format&fit=crop',
+};

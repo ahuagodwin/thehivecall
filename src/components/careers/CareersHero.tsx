@@ -24,7 +24,7 @@ export function CareersHero() {
         <Reveal variants={scaleIn} delay={0.12} className="overflow-hidden rounded-t-3xl">
           <img
             src={CAREERS_HERO.image}
-            alt="The Chiscript team collaborating in a workshop"
+            alt="The TheHiveCall team collaborating in a workshop"
             className="h-[420px] w-full object-cover md:h-[560px]"
           />
         </Reveal>

@@ -23,7 +23,7 @@ export function AboutHero() {
         <Reveal variants={scaleIn} delay={0.12} className="overflow-hidden rounded-t-3xl">
           <img
             src={ABOUT_HERO.image}
-            alt="Chiscript technology team collaborating"
+            alt="TheHiveCall technology team collaborating"
             className="h-[420px] w-full object-cover md:h-[560px]"
           />
         </Reveal>

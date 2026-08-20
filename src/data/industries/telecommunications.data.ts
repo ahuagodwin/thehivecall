@@ -73,7 +73,7 @@ export const TELECOMMUNICATIONS_INDUSTRY: IndustryDetailConfig = {
     },
   ],
   caseStudy: {
-    quote: 'Chiscript\u2019s engineers understood our network at a level most vendors never reach.',
+    quote: 'TheHiveCall\u2019s engineers understood our network at a level most vendors never reach.',
     author: 'Priya Nandan',
     role: 'META MEX \u2014 COO',
     metricValue: '3.1x',

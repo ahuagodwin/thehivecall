@@ -40,7 +40,7 @@ export function ServiceDetailHero(props: ServiceHeroData) {
         <Reveal variants={scaleIn} delay={0.18} className="overflow-hidden rounded-t-3xl">
           <img
             src={props.image}
-            alt={`Chiscript ${props.title} engagement`}
+            alt={`TheHiveCall ${props.title} engagement`}
             className="h-[420px] w-full object-cover md:h-[560px]"
           />
         </Reveal>

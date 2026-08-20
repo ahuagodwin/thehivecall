@@ -56,7 +56,7 @@ export function AboutClosingCta() {
           <motion.div variants={fadeUp} className="overflow-hidden rounded-3xl">
             <img
               src={ABOUT_CTA_IMAGE}
-              alt="Chiscript team member reviewing a project"
+              alt="TheHiveCall team member reviewing a project"
               className="h-full min-h-[420px] w-full object-cover"
             />
           </motion.div>

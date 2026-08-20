@@ -13,86 +13,84 @@ import type {
 export const HERO_VARIANTS: HeroVariant[] = [
   {
     id: 'trusted-partner',
-    badge: 'Trusted Partner',
-    headingLines: ['Your Trusted', 'Technology Partner'],
+    badge: 'Technology Solutions',
+    headingLines: ['Innovate Today,', 'Lead Tomorrow'],
     image:
-      'https://finovate.vamtam.com/wp-content/uploads/2025/02/GettyImages-1364057902.jpg',
-    ctaLabel: 'Free Consultation',
-  },
-
-    {
-    id: 'financial-services',
-    badge: 'Financial Services',
-    headingLines: ['Powering Your', 'Business Finances'],
-    image:
-      'https://finovate.vamtam.com/wp-content/uploads/2025/02/GettyImages-1483243663.jpg?q=80&w=2000&auto=format&fit=crop',
-    ctaLabel: 'Free Consultation',
-  },
-   {
-    id: 'software',
-    badge: 'Software Engineering',
-    headingLines: ['Build Smarter,', 'Scale Faster'],
-    image:
-      'https://images.pexels.com/photos/6804612/pexels-photo-6804612.jpeg?q=80&w=2000&auto=format&fit=crop',
-    ctaLabel: 'Explore Our Solutions',
+      'https://images.pexels.com/photos/8112106/pexels-photo-8112106.jpeg?q=80&w=2000&auto=format&fit=crop',
+    ctaLabel: 'Start a Conversation',
   },
   {
-    id: 'investing',
-    badge: 'Investment & Training',
-    headingLines: ['Invest Today,', 'Thrive Tomorrow'],
+    id: 'software',
+    badge: 'Custom Software',
+    headingLines: ['Turn Ideas Into', 'Powerful Digital Products'],
     image:
-      'https://finovate.vamtam.com/wp-content/uploads/2025/02/GettyImages-2149615639.jpg?q=80&w=2000&auto=format&fit=crop',
-    ctaLabel: 'Talk to an Advisor',
+      'https://images.pexels.com/photos/6804068/pexels-photo-6804068.jpeg?q=80&w=2000&auto=format&fit=crop',
+    ctaLabel: 'Build Your Solution',
   },
-
   {
     id: 'cybersecurity',
     badge: 'Cyber Security',
-    headingLines: ['Securing Your', 'Digital Future'],
+    headingLines: ['Stay Secure,', 'Stay Ahead'],
     image:
-      'https://images.pexels.com/photos/5475791/pexels-photo-5475791.jpeg?q=80&w=2000&auto=format&fit=crop',
-    ctaLabel: 'Get a Security Audit',
+      'https://images.pexels.com/photos/5935794/pexels-photo-5935794.jpeg?q=80&w=2000&auto=format&fit=crop',
+    ctaLabel: 'Secure Your Business',
+  },
+  {
+    id: 'banking',
+    badge: 'Fintech & Finance',
+    headingLines: ['Reimagining Finance', 'Through Technology'],
+    image:
+      'https://images.pexels.com/photos/37594389/pexels-photo-37594389.jpeg?q=80&w=2000&auto=format&fit=crop',
+    ctaLabel: 'Discover Fintech',
   },
   {
     id: 'project',
     badge: 'Project Management',
-    headingLines: ['Plan Smarter,', 'Deliver Better'],
+    headingLines: ['From Strategy', 'to Successful Delivery'],
     image:
-      'https://images.pexels.com/photos/5686111/pexels-photo-5686111.jpeg?q=80&w=2000&auto=format&fit=crop',
-    ctaLabel: 'Explore Solutions',
+      'https://images.pexels.com/photos/5313133/pexels-photo-5313133.jpeg?q=80&w=2000&auto=format&fit=crop',
+    ctaLabel: 'Manage With Confidence',
   },
-]
+  {
+    id: 'digital',
+    badge: 'Business Digitalization',
+    headingLines: ['Transform Operations,', 'Unlock New Possibilities'],
+    image:
+      'https://images.pexels.com/photos/3183187/pexels-photo-3183187.jpeg?q=80&w=2000&auto=format&fit=crop',
+    ctaLabel: 'Transform Your Business',
+  },
+];
 
 
 export const INSIGHT_CARDS: InsightCard[] = [
   {
     id: 'who-we-are',
-    tag: 'WHO WE ARE',
-    title: 'Leading Provider of Cybersecurity and Technology Solutions',
+    tag: 'ABOUT US',
+    title: 'Building Innovative Technology Solutions for a Digital Future',
     image:
-      'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop',
     variant: 'light',
     href: '#philosophy',
   },
   {
     id: 'recognition',
-    tag: 'RECOGNITION',
-    title: 'Chiscript Technologies Named a Blockchain Innovation Partner',
+    tag: 'INNOVATION',
+    title: 'Driving Digital Innovation Through Technology and Strategic Solutions',
     image:
-      'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1200&auto=format&fit=crop',
     variant: 'accent',
     href: '/insights',
   },
   {
     id: 'report',
-    tag: 'REPORT',
-    title: '2025 State of Digital Trust & Cybersecurity Report',
+    tag: 'INSIGHTS',
+    title: 'Exploring Emerging Trends in Technology, Fintech and Digital Security',
     image:
-      'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop',
     variant: 'accentAlt',
     href: '/insights',
   },
-]
+];
 
 export const SERVICES: ServiceItem[] = [
   {
@@ -100,15 +98,15 @@ export const SERVICES: ServiceItem[] = [
     icon: 'shield',
     title: 'Cybersecurity',
     image:
-      'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=900&auto=format&fit=crop',
     href: '#services',
   },
   {
-    id: 'blockchain',
-    icon: 'link',
-    title: 'Blockchain Solutions',
+    id: 'fintech',
+    icon: 'bank',
+    title: 'Fintech & Finance',
     image:
-      'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=900&auto=format&fit=crop',
+      'https://images.pexels.com/photos/37594389/pexels-photo-37594389.jpeg?q=80&w=900&auto=format&fit=crop',
     href: '#services',
   },
   {
@@ -116,7 +114,7 @@ export const SERVICES: ServiceItem[] = [
     icon: 'code',
     title: 'Software Development',
     image:
-      'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=900&auto=format&fit=crop',
     href: '#services',
   },
   {
@@ -124,41 +122,41 @@ export const SERVICES: ServiceItem[] = [
     icon: 'bank',
     title: 'IT Consultancy',
     image:
-      'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=900&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=900&auto=format&fit=crop',
     href: '#services',
   },
-]
+];
 
 export const PHILOSOPHY_PILLARS: PhilosophyPillar[] = [
   {
     id: 'expertise',
     icon: 'coins',
-    title: 'Deep expertise',
+    title: 'Technical Excellence',
     description:
-      "With the technologies, platforms and ecosystems shaping every client's industry",
+      'Deep expertise in modern technologies, platforms and digital solutions that drive business growth',
   },
   {
     id: 'collaborative',
     icon: 'layers',
-    title: 'Collaborative approach',
+    title: 'Client-Centered Collaboration',
     description:
-      'A hands-on, collaborative approach to building secure, scalable solutions for long-term success',
+      'Working closely with our clients to understand their goals and deliver secure, scalable and practical solutions',
   },
   {
     id: 'evidence',
     icon: 'asterisk',
-    title: 'Philosophy of evidence',
+    title: 'Data-Driven Thinking',
     description:
-      'Data-driven insights tackling core issues through analysis, testing and research',
+      'Using research, analysis and measurable insights to solve complex challenges and make informed decisions',
   },
   {
     id: 'knowhow',
     icon: 'bubbles',
-    title: 'The know-how',
+    title: 'Practical Innovation',
     description:
-      'Turning insights into impactful action by overcoming technical and operational barriers',
+      'Combining technical expertise and strategic thinking to turn ideas into impactful digital solutions',
   },
-]
+];
 
 export const PHILOSOPHY_STATS: StatItem[] = [
   { id: 'clients', value: '150+', label: 'SATISFIED CLIENTS' },
@@ -167,25 +165,27 @@ export const PHILOSOPHY_STATS: StatItem[] = [
   { id: 'repeat', value: '>90%', label: 'REPEAT CLIENTS OR REFERRALS' },
 ]
 
-export const CTA_HEADING = 'Empowering Businesses to Navigate the Digital Landscape With Confidence'
-export const CTA_BUTTON_LABEL = 'Book a Consultation'
+export const CTA_HEADING =
+  'Transforming Ideas into Secure, Scalable, and Innovative Digital Solutions';
+
+export const CTA_BUTTON_LABEL = 'Start Your Project';
 
 export const CTA_IMAGE =
-  'https://finovate.vamtam.com/wp-content/uploads/2025/02/GettyImages-1394467242.jpg?q=80&w=2000&auto=format&fit=crop'
+  'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2000&auto=format&fit=crop'
 
 export const INDUSTRIES: IndustryItem[] = [
-  { id: 'banking', label: 'Banking & Finance', href: '#' },
-  { id: 'government', label: 'Government & Public Sector', href: '#' },
-  { id: 'healthcare', label: 'Healthcare', href: '#' },
+  { id: 'fintech', label: 'Fintech & Financial Services', href: '#' },
+  { id: 'technology', label: 'Technology & Software', href: '#' },
+  { id: 'healthcare', label: 'Healthcare & Life Sciences', href: '#' },
   { id: 'telecom', label: 'Telecommunications', href: '#' },
   { id: 'energy', label: 'Energy & Utilities', href: '#' },
-  { id: 'education', label: 'Education', href: '#' },
-]
+  { id: 'government', label: 'Government & Public Sector', href: '#' },
+];
 
 export const RADAR_LEGEND = {
-  primary: 'Security Operations',
-  secondary: 'Digital Growth',
-}
+  primary: 'Technology & Security',
+  secondary: 'Digital Innovation',
+};
 
 export const RADAR_DATA: RadarPoint[] = [
   { month: 'Jan', investments: 92, finance: 40 },
@@ -200,54 +200,54 @@ export const RADAR_DATA: RadarPoint[] = [
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    id: 'hn',
+    id: 'fintech',
     quote:
-      "We wouldn't have gotten to where we are today without Chiscript. The team spent time understanding our infrastructure and where our vulnerabilities were.",
-    author: 'Rebecca Roy',
-    role: 'H&N — CEO & PRESIDENT',
-    companyTag: 'H&N',
+      'Their team understood our business goals and delivered a secure, scalable fintech platform that improved our operations and customer experience.',
+    author: 'Michael Adeyemi',
+    role: 'FINTECH COMPANY — CEO',
+    companyTag: 'FINTECH',
     image:
-      'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1200&auto=format&fit=crop',
     storyTag: 'SUCCESS STORY',
-    storyTitle: 'Enterprise Security Overhaul Generates H&N Success in Healthcare',
-    metricValue: '1.6x',
-    metricLabel: 'reduction in security incidents realized within the first year.',
+    storyTitle: 'Digital Finance Platform Built for Growth and Scale',
+    metricValue: '45%',
+    metricLabel: 'improvement in transaction processing efficiency.',
   },
   {
-    id: 'konstruktion',
+    id: 'software',
     quote:
-      'Chiscript helped us re-architect our core banking platform from the ground up, cutting transaction processing time dramatically while giving leadership real-time visibility.',
-    author: 'Daniel Ortiz',
-    role: 'KONSTRUKTION — CTO',
-    companyTag: 'KN',
+      'From planning to deployment, the team demonstrated exceptional technical expertise. They transformed our ideas into a reliable software solution that our customers love.',
+    author: 'Sarah Williams',
+    role: 'TECH COMPANY — CTO',
+    companyTag: 'TECH',
     image:
-      'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200&auto=format&fit=crop',
     storyTag: 'SUCCESS STORY',
-    storyTitle: 'Core Platform Modernization Cuts Processing Time for Konstruktion',
-    metricValue: '42%',
-    metricLabel: 'reduction in transaction processing time within two release cycles.',
+    storyTitle: 'Custom Software Solution Accelerates Business Operations',
+    metricValue: '2.4x',
+    metricLabel: 'increase in operational efficiency after implementation.',
   },
   {
-    id: 'metamex',
+    id: 'security',
     quote:
-      'The team embedded with ours for months, not weeks. That depth of partnership is why the blockchain integration actually stuck after they left.',
-    author: 'Priya Nandan',
-    role: 'META MEX — COO',
-    companyTag: 'MM',
+      'Their cybersecurity team gave us the confidence to operate in a rapidly changing digital environment. Our systems are now more secure, resilient and prepared for emerging threats.',
+    author: 'David Okafor',
+    role: 'FINANCIAL SERVICES — CIO',
+    companyTag: 'FINANCE',
     image:
-      'https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=1200&auto=format&fit=crop',
     storyTag: 'SUCCESS STORY',
-    storyTitle: 'Blockchain Integration Sticks Long After Rollout',
-    metricValue: '3.1x',
-    metricLabel: 'ROI realized on the digital transformation program within 18 months.',
+    storyTitle: 'Strengthening Digital Security and Business Resilience',
+    metricValue: '60%',
+    metricLabel: 'reduction in identified security vulnerabilities.',
   },
-]
+];
 
 export const CLIENT_LOGOS: ClientLogo[] = [
-  { id: 'hex', name: 'HEX Fond' },
-  { id: 'mtgox', name: 'MTGox' },
-  { id: 'savex', name: 'Savex Bank' },
-  { id: 'konstruktion', name: 'KONSTRUKTION' },
-  { id: 'coinbasee', name: 'Cooinbasee' },
-  { id: 'metamex', name: 'Meta Mex' },
+  { id: 'stripe', name: 'Stripe' },
+  { id: 'google', name: 'Google' },
+  { id: 'wise', name: 'Wise' },
+  { id: 'grey', name: 'Grey' },
+  { id: 'paystack', name: 'Paystack' },
+  { id: 'flutterwave', name: 'Flutterwave' },
 ]

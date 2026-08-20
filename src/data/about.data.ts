@@ -3,10 +3,10 @@ import { SITE_CONFIG } from '@config/site.config'
 
 export const ABOUT_HERO = {
   eyebrow: 'WHO WE ARE',
-  headingPrefix: 'A Trusted Partner Committed to Your ',
-  headingAccent: 'Digital Success',
+  headingPrefix: 'Building the Future Through ',
+  headingAccent: 'Technology',
   image:
-    'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2000&auto=format&fit=crop',
+    'https://images.pexels.com/photos/8112106/pexels-photo-8112106.jpeg?q=80&w=2000&auto=format&fit=crop',
 }
 
 export interface TwoToneStat extends StatItem {
@@ -14,125 +14,126 @@ export interface TwoToneStat extends StatItem {
 }
 
 export const ABOUT_TOP_STATS: TwoToneStat[] = [
-  { id: 'secured', value: '$250', suffix: 'M+', label: 'DIGITAL ASSETS SECURED' },
-  { id: 'delivered', value: '$6', suffix: 'bn', label: 'SAVED FOR CLIENTS ANNUALLY' },
-  { id: 'repeat', value: '90%', label: 'REPEAT CLIENTS OR REFERRALS' },
-  { id: 'professionals', value: '120+', label: 'PROFESSIONALS' },
+  { id: 'projects', value: '100+', label: 'DIGITAL PROJECTS DELIVERED' },
+  { id: 'industries', value: '30+', label: 'INDUSTRIES SUPPORTED' },
+  { id: 'clients', value: '90%', label: 'CLIENT SATISFACTION & RETENTION' },
+  { id: 'solutions', value: '50+', label: 'TECHNOLOGY SOLUTIONS DELIVERED' },
 ]
 
 export const VALUES_SECTION = {
-  eyebrow: 'VALUES',
-  headingPrefix: 'We Operate with Unwavering ',
-  headingAccent: 'Honesty',
-  headingSuffix: ' & Integrity',
+  eyebrow: 'OUR VALUES',
+  headingPrefix: 'Technology Built on ',
+  headingAccent: 'Trust',
+  headingSuffix: ', Excellence & Innovation',
   paragraph:
-    'We offer a deeply personalized approach, providing objective, secure, and reliable technology solutions, seamless implementation, and exclusive access to cutting-edge innovation, all designed to help clients reach their goals and build lasting digital resilience.',
+    'We combine technical expertise, strategic thinking, and a deep understanding of our clients’ goals to deliver secure, practical, and scalable technology solutions that create lasting business value.',
 }
 
 export const VALUES: ValueItem[] = [
   {
-    id: 'fiduciary',
+    id: 'integrity',
     icon: 'shield',
-    title: 'Fiduciary',
-    description: "A commitment to acting in your best interest for long-term digital wellbeing.",
+    title: 'Integrity',
+    description:
+      'We operate with transparency, honesty, and accountability in every relationship and project.',
   },
   {
-    id: 'integrated',
+    id: 'innovation',
     icon: 'pie',
-    title: 'Integrated',
+    title: 'Innovation',
     description:
-      'Comprehensive technology services, tailored solutions, and exclusive access to emerging innovation.',
+      'We embrace emerging technologies and creative thinking to solve complex business challenges.',
   },
   {
     id: 'personalized',
     icon: 'layers',
-    title: 'Highly Personalized',
+    title: 'Client-Centered',
     description:
-      'A customized approach driven by proactive ideas and strategic problem-solving.',
+      'Every solution is tailored to the unique goals, challenges, and opportunities of our clients.',
   },
   {
-    id: 'experienced',
+    id: 'excellence',
     icon: 'star',
-    title: 'Experienced',
+    title: 'Excellence',
     description:
-      'A highly dedicated team, supported by our extensive network of trusted professionals.',
+      'We maintain high standards of quality, security, performance, and continuous improvement.',
   },
 ]
 
 export const HISTORY_SECTION = {
-  eyebrow: 'OUR HISTORY',
-  headingPrefix: "Here's How We Got ",
-  headingAccent: 'Started',
+  eyebrow: 'OUR JOURNEY',
+  headingPrefix: 'Growing Through ',
+  headingAccent: 'Innovation',
   image:
-    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2000&auto=format&fit=crop',
+    'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?q=80&w=2000&auto=format&fit=crop',
 }
 
 export const HISTORY_ERAS: HistoryEra[] = [
   {
-    id: '2014',
-    year: '2014',
-    badge: '2014',
-    title: 'The Beginning',
-    description:
-      'Our story begins in 2014, when a small team of engineers founded Chiscript as a boutique cybersecurity consultancy.',
-  },
-  {
-    id: '2018',
+    id: 'foundation',
     year: '2018',
     badge: '2018',
-    title: 'Expanding Our Reach',
+    title: 'The Foundation',
     description:
-      'By 2018, Chiscript had grown into a full technology consultancy, adding software development and IT advisory to our services.',
+      'TheHiveCall began with a vision to help businesses use technology more securely, efficiently, and strategically.',
   },
   {
-    id: '2021',
-    year: '2021',
-    badge: '2021',
-    title: 'Entering Blockchain & Fintech',
+    id: 'expansion',
+    year: '2020',
+    badge: '2020',
+    title: 'Expanding Our Capabilities',
     description:
-      'In 2021, we launched our blockchain and financial services division, helping clients build secure, compliant digital-asset infrastructure.',
+      'We expanded our expertise across software development, cybersecurity, technology consulting, and digital solutions.',
   },
   {
-    id: '2024',
-    year: '2024',
-    badge: '2024',
-    title: 'Going Global',
+    id: 'fintech',
+    year: '2023',
+    badge: '2023',
+    title: 'Fintech & Digital Innovation',
     description:
-      'Today, Chiscript Technologies Ltd serves clients across banking, government, healthcare, and telecoms from offices spanning three continents.',
+      'We strengthened our focus on fintech, financial technology, digital platforms, and secure solutions for modern businesses.',
+  },
+  {
+    id: 'today',
+    year: '2026',
+    badge: '2026',
+    title: 'Building What Comes Next',
+    description:
+      'Today, TheHiveCall LLC continues to help organizations transform ideas into secure, scalable, and innovative technology solutions.',
   },
 ]
 
 export const WHY_US = {
-  eyebrow: 'WHY US',
-  headingPrefix: 'We Always Put ',
-  headingAccent: 'Your Interests',
-  headingSuffix: ' First',
+  eyebrow: 'WHY CHOOSE US',
+  headingPrefix: 'Your Goals. Our ',
+  headingAccent: 'Technology Expertise',
+  headingSuffix: '.',
   paragraph:
-    'Driven by a relentless focus on "why," we integrate our services to uncover, design, and deliver the most impactful technology outcomes for you. Instead of relying on predefined processes, we take a hands-on approach—collaborating closely with your teams to craft secure, practical, end-to-end solutions tailored to your needs.',
-  buttonLabel: 'Free Consultation',
+    'We combine strategic guidance with hands-on technical expertise to deliver solutions that solve real business problems. From software and cybersecurity to fintech and digital transformation, we work closely with your team to create secure, scalable, and practical outcomes.',
+  buttonLabel: 'Talk to Our Experts',
   pillLinks: [
     'Cybersecurity',
-    'Blockchain Solutions',
+    'Fintech & Finance',
     'Software Development',
-    'IT Consultancy',
+    'Technology Consultancy',
   ],
 }
 
 export const ABOUT_QUOTE: QuoteItem = {
   quote:
-    'Our purpose is to help businesses and individuals navigate the digital landscape with confidence, security, and innovation.',
-  author: 'Chidi Ahia',
-  role: 'CO-FOUNDER & CEO',
+    'Our mission is to help businesses turn technology into a strategic advantage through secure, innovative, and practical digital solutions.',
+  author: 'TheHiveCall Team',
+  role: 'THE HIVE CALL LLC',
   avatar:
-    'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
+    'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?q=80&w=200&auto=format&fit=crop',
 }
 
 export const ABOUT_CTA_IMAGE =
-  'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200&auto=format&fit=crop'
+  'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?q=80&w=1200&auto=format&fit=crop'
 
 export const ABOUT_REPORT_CARD = {
-  year: '2025',
-  title: 'State of Cybersecurity & Digital Trust Report',
+  year: '2026',
+  title: 'Technology, Cybersecurity & Digital Innovation Insights',
   href: '/insights',
 }
 

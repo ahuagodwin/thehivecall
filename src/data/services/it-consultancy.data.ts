@@ -46,7 +46,7 @@ export const IT_CONSULTANCY_SERVICE: ServiceDetailConfig = {
     eyebrow: 'PLANNING FOR SCALE',
     heading: 'Achieving Your Vision',
     paragraph:
-      "Planning for growth is essential to your organization's long-term success. At Chiscript, our experienced team collaborates with you to identify your technology goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.",
+      "Planning for growth is essential to your organization's long-term success. At TheHiveCall, our experienced team collaborates with you to identify your technology goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.",
     image:
       'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop',
   },
@@ -101,6 +101,6 @@ export const IT_CONSULTANCY_SERVICE: ServiceDetailConfig = {
     buttonLabel: 'Schedule a Call',
     image:
       'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2000&auto=format&fit=crop',
-    imageAlt: "Chiscript consultants reviewing a client's technology roadmap",
+    imageAlt: "TheHiveCall consultants reviewing a client's technology roadmap",
   },
 }

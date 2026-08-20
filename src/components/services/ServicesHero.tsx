@@ -24,7 +24,7 @@ export function ServicesHero() {
         <Reveal variants={scaleIn} delay={0.12} className="overflow-hidden rounded-t-3xl">
           <img
             src={SERVICES_HERO.image}
-            alt="Chiscript team reviewing a client engagement"
+            alt="TheHiveCall team reviewing a client engagement"
             className="h-[420px] w-full object-cover md:h-[560px]"
           />
         </Reveal>

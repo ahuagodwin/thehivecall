@@ -29,7 +29,7 @@ export function HistorySection() {
       <div className="relative">
         <img
           src={HISTORY_SECTION.image}
-          alt="Chiscript through the years"
+          alt="TheHiveCall through the years"
           className="h-[420px] w-full object-cover grayscale md:h-[520px]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />

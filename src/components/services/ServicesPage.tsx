@@ -21,7 +21,7 @@ export function ServicesPage() {
         subtitle={SERVICES_WHY_US_OVERLAY.subtitle}
         buttonLabel={SERVICES_WHY_US_OVERLAY.buttonLabel}
         image={SERVICES_WHY_US_OVERLAY.image}
-        imageAlt="Chiscript colleagues shaking hands after a successful engagement"
+        imageAlt="TheHiveCall colleagues shaking hands after a successful engagement"
       />
     </>
   )

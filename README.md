@@ -1,6 +1,6 @@
-# Chiscript Technologies — Website
+# TheHiveCall Technologies — Website
 
-A fully animated, multi-page marketing site for Chiscript Technologies Ltd — a technology
+A fully animated, multi-page marketing site for TheHiveCall Technologies Ltd — a technology
 company delivering cybersecurity, blockchain, software development, products, IT consultancy,
 financial services & investment, and training. Built with Vite, React, TypeScript, Tailwind
 CSS v4, Framer Motion, Zustand, and Redux Toolkit.

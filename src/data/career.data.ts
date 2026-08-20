@@ -3,86 +3,89 @@ import { SITE_CONFIG } from '@config/site.config'
 
 export const CAREERS_HERO = {
   eyebrow: 'CAREERS',
-  headingPrefix: 'Get an Inside Look at ',
-  headingAccent: 'Our Culture',
-  headingSuffix: ' and Team',
+  headingPrefix: 'Build Your Career in ',
+  headingAccent: 'Technology',
+  headingSuffix: ' That Makes an Impact',
   image:
-    'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2000&auto=format&fit=crop',
+    'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?q=80&w=2000&auto=format&fit=crop',
 }
 
 export const CULTURE_SECTION = {
-  eyebrow: 'CULTURE & COMMUNITY',
-  headingPrefix: 'We ',
-  headingAccent: 'value',
-  headingSuffix: ' our employees',
+  eyebrow: 'OUR CULTURE',
+  headingPrefix: 'Grow, ',
+  headingAccent: 'Create',
+  headingSuffix: ' and Make an Impact',
   paragraphs: [
-    `At ${SITE_CONFIG.name}, we value our employees, community, industry peers, and students.`,
-    'We believe in fostering lifelong learning, mentorship, and professional growth. Our collegial atmosphere encourages teamwork, where employees can leverage their technical and interpersonal skills to serve clients with care.',
-    "Success here isn't driven by sales or commissions but by collaboration, independent thinking, and continuous improvement.",
-    `We prioritize mutual respect, idea-sharing, and creativity—because every team member plays a vital role in our company's success. This is the culture that defines ${SITE_CONFIG.name}.`,
+    `At ${SITE_CONFIG.name}, we believe great technology starts with great people.`,
+    'We create an environment where curiosity, collaboration, and continuous learning are encouraged. Our team members have the opportunity to work on meaningful projects while developing their technical, creative, and leadership skills.',
+    'We value ownership, open communication, and independent thinking. Everyone is encouraged to share ideas, challenge assumptions, and contribute to better solutions.',
+    `Whether you're an experienced professional or building your career, ${SITE_CONFIG.name} provides an environment where you can learn, contribute, and grow.`,
   ],
 }
 
 export const AWARDS_CTA = {
-  eyebrow: 'AWARDS & RECOGNITION',
-  heading: 'Outside Experts Agree – People Love it Here',
-  paragraph: `${SITE_CONFIG.name} is consistently ranked as a top workplace—and not just overall, but also for women, the LGBTQ community, and underrepresented groups in tech. The biggest reason? Our people.`,
-  buttonLabel: 'Open Positions',
-  badgeTitle: 'Great Place To Work',
-  badgeYear: '2025',
+  eyebrow: 'PEOPLE & CULTURE',
+  heading: 'A Workplace Built for Growth',
+  paragraph:
+    `We believe our strongest advantage is our people. ${SITE_CONFIG.name} is committed to creating a supportive, inclusive, and collaborative environment where talented professionals can do their best work.`,
+  buttonLabel: 'View Open Positions',
+  badgeTitle: 'People First',
+  badgeYear: '2026',
   image:
-    'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop',
+    'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?q=80&w=1200&auto=format&fit=crop',
 }
 
 export const DIFFERENCE_SECTION = {
   eyebrow: `THE ${SITE_CONFIG.name.toUpperCase()} DIFFERENCE`,
-  headingPrefix: 'We Bring Our ',
-  headingAccent: 'Heads and Hearts',
-  headingSuffix: ' to Everything We Do',
+  headingPrefix: 'More Than a ',
+  headingAccent: 'Workplace',
+  headingSuffix: ' — A Team Built to Grow',
 }
 
 export const DIFFERENCE_CARDS: DifferenceCard[] = [
   {
     id: 'people-first',
     icon: 'heart',
-    title: 'People-First Culture',
+    title: 'People First',
     description:
-      'Celebrate authenticity every day, as you engage, connect, and make an impact in your local team and community.',
+      'We create a respectful and collaborative environment where every team member is valued, heard, and empowered to contribute.',
   },
   {
     id: 'growth',
     icon: 'rocket',
-    title: 'Personal Growth',
+    title: 'Continuous Growth',
     description:
-      'Stay curious and dream big. Customize your development with flexible, innovative options for learning, coaching, and mentoring.',
+      'Learn new technologies, develop your skills, and take on meaningful challenges that support your personal and professional growth.',
   },
   {
-    id: 'pay',
+    id: 'innovation',
     icon: 'coins',
-    title: 'Performance Pay',
+    title: 'Innovation & Ownership',
     description:
-      "Earn competitive and equitable compensation that rewards your performance and allows you to share in the company's long-term success.",
+      'Bring your ideas to the table, solve challenging problems, and take ownership of the solutions you help create.',
   },
   {
     id: 'wellbeing',
     icon: 'party',
-    title: 'Well-Being Focus',
+    title: 'Work-Life Balance',
     description:
-      'Thrive holistically with robust, individualized benefits that support your emotional, mental, financial, physical, and social well-being.',
+      'We support sustainable performance through flexibility, teamwork, professional development, and a healthy working environment.',
     highlighted: true,
   },
 ]
 
 export const OPEN_POSITIONS_CTA = {
-  eyebrow: 'OPEN POSITIONS',
-  headingPrefix: 'Join the ',
-  headingAccent: `${SITE_CONFIG.name} Family`,
+  eyebrow: 'JOIN OUR TEAM',
+  headingPrefix: 'Build the Future with ',
+  headingAccent: SITE_CONFIG.name,
   paragraph:
-    'We are looking for smart, engaged, caring professionals who value client success and technical excellence equally. We offer the right candidates attractive benefits, a collegial, challenging work environment and uncommon opportunities for professional growth.',
+    'We are always looking for talented, curious, and motivated professionals who want to solve meaningful problems and build innovative technology. Explore opportunities to grow your career while making a real impact.',
   positions: [
-    'Cybersecurity Analyst',
-    'Blockchain Engineer',
-    'Software Developer',
-    'IT Consultant',
+    'Software Engineer',
+    'Cybersecurity Specialist',
+    'Fintech & Payments Engineer',
+    'Product Designer (UI/UX)',
+    'Cloud & DevOps Engineer',
+    'Technology Consultant',
   ],
 }

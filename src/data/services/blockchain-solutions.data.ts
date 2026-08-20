@@ -46,7 +46,7 @@ export const BLOCKCHAIN_SERVICE: ServiceDetailConfig = {
     eyebrow: 'BUILDING FOR SCALE',
     heading: 'Achieving Your Blockchain Vision',
     paragraph:
-      "Planning for adoption is essential to your protocol's long-term success. At Chiscript, our experienced team collaborates with you to identify your product goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.",
+      "Planning for adoption is essential to your protocol's long-term success. At TheHiveCall, our experienced team collaborates with you to identify your product goals and crafts a tailored, comprehensive strategy to help you achieve them with confidence.",
     image:
       'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1200&auto=format&fit=crop',
   },
@@ -101,6 +101,6 @@ export const BLOCKCHAIN_SERVICE: ServiceDetailConfig = {
     buttonLabel: 'Schedule a Call',
     image:
       'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2000&auto=format&fit=crop',
-    imageAlt: 'Chiscript blockchain engineers reviewing a smart contract audit',
+    imageAlt: 'TheHiveCall blockchain engineers reviewing a smart contract audit',
   },
 }

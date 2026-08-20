@@ -2,110 +2,116 @@ import type { IndustryOverviewCard } from '@app-types/index'
 
 export const INDUSTRIES_HERO = {
   eyebrow: 'INDUSTRIES',
-  headingPrefix: 'One Standard of Excellence, ',
-  headingAccent: 'Six Industries',
+  headingPrefix: 'Technology Solutions for ',
+  headingAccent: 'Every Industry',
   subtitle:
-    'From core banking to critical infrastructure, we bring the same rigor, security-first thinking, and hands-on partnership to every sector we serve.',
-}
+    'We combine industry knowledge, modern technology, and practical expertise to help organizations solve complex challenges, improve operations, and unlock sustainable growth.',
+};
 
 export const INDUSTRY_CARDS: IndustryOverviewCard[] = [
   {
     id: 'banking',
     slug: 'banking-finance',
     title: 'Banking & Finance',
-    tagline: 'Securing transactions and modernizing core banking systems.',
+    tagline:
+      'Modernizing financial services with secure, scalable, and intelligent technology.',
     image:
-      'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1400&auto=format&fit=crop',
+      'https://images.pexels.com/photos/37594389/pexels-photo-37594389.jpeg?q=80&w=1400&auto=format&fit=crop',
     size: 'large',
   },
   {
     id: 'government',
     slug: 'government-public-sector',
     title: 'Government & Public Sector',
-    tagline: 'Modern, citizen-first digital services for public institutions.',
+    tagline:
+      'Digital solutions that improve public services, efficiency, and citizen experiences.',
     image:
-      'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
   {
     id: 'healthcare',
     slug: 'healthcare',
-    title: 'Healthcare',
-    tagline: 'Protecting patient data and powering modern care.',
+    title: 'Healthcare & Life Sciences',
+    tagline:
+      'Secure digital platforms that support better healthcare delivery and data management.',
     image:
-      'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/7088526/pexels-photo-7088526.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
   {
     id: 'telecom',
     slug: 'telecommunications',
     title: 'Telecommunications',
-    tagline: 'Resilient networks and secure infrastructure at scale.',
+    tagline:
+      'Reliable technology and secure infrastructure built for connected businesses.',
     image:
-      'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
   {
     id: 'energy',
     slug: 'energy-utilities',
     title: 'Energy & Utilities',
-    tagline: 'Securing critical infrastructure and modernizing the grid.',
+    tagline:
+      'Technology solutions that strengthen infrastructure, operations, and service delivery.',
     image:
-      'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
   {
     id: 'education',
     slug: 'education',
     title: 'Education',
-    tagline: 'Secure, modern digital learning infrastructure.',
+    tagline:
+      'Digital learning and management solutions designed for modern educational institutions.',
     image:
-      'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
-
-   {
+  {
     id: 'ecommerce',
     slug: 'ecommerce',
     title: 'E-commerce & Retail',
-    tagline: 'Building secure, scalable digital commerce and retail experiences.',
+    tagline:
+      'Scalable digital commerce solutions that connect businesses with their customers.',
     image:
-      'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
-
   {
     id: 'beauty',
     slug: 'beauty-personal-care',
     title: 'Beauty & Personal Care',
-    tagline: 'Digital solutions that elevate beauty brands, customer experiences, and commerce.',
+    tagline:
+      'Digital experiences that help beauty brands grow, engage customers, and scale.',
     image:
-      'https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
-
   {
     id: 'real-estate',
     slug: 'real-estate-construction',
     title: 'Real Estate & Construction',
-    tagline: 'Modern platforms for property management, development, and construction operations.',
+    tagline:
+      'Smart digital platforms for property, project, and construction management.',
     image:
-      'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000&auto=format&fit=crop',
+      'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?q=80&w=1000&auto=format&fit=crop',
     size: 'small',
   },
-]
+];
 
 export const INDUSTRIES_TICKER = [
-  '40+ Financial Institutions Served',
-  '500K+ Patient Records Secured',
-  '10M+ Telecom Subscribers Supported',
-  '20+ Utility Providers Served',
-  '50+ Educational Institutions Trained',
-  '15+ Government Agencies Served',
-]
+  '100+ Businesses Supported',
+  '50+ Financial Projects Delivered',
+  '1M+ Digital Transactions Enabled',
+  '100+ Technology Solutions Deployed',
+  '50+ Organizations Digitally Transformed',
+  '30+ Industries & Business Sectors Served',
+];
 
 export const INDUSTRIES_CTA = {
-  heading: "Don't See Your Industry Listed?",
+  heading: "Don't See Your Industry?",
   subheading:
-    "Our approach translates across sectors. Tell us about your challenge and we'll show you how.",
-}
+    "Our technology expertise adapts to different industries and business needs. Tell us about your challenge and let's build the right solution together.",
+};

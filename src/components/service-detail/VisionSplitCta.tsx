@@ -12,7 +12,7 @@ export function VisionSplitCta(props: ServiceVisionData) {
         <Reveal variants={fadeUp} className="overflow-hidden rounded-[32px]">
           <img
             src={props.image}
-            alt="A Chiscript client planning their roadmap"
+            alt="A TheHiveCall client planning their roadmap"
             className="h-full min-h-[380px] w-full object-cover"
           />
         </Reveal>
