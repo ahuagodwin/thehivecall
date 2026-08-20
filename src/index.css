@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-sans: 'Manrope', 'Inter', system-ui, sans-serif;
+
+  --color-ink: #16302b;
+  --color-ink-light: #234840;
+  --color-ink-soft: #2f5148;
+  --color-lime: #c6ef4f;
+  --color-lime-dark: #b3dd3a;
+  --color-cream: #f5f2ec;
+  --color-cream-dark: #efece3;
+  --color-sand: #e8e4d8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background-color: var(--color-lime);
+  color: var(--color-ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-soft);
+  border-radius: 999px;
+}
+
+.input-field {
+  width: 100%;
+  border-radius: 0.9rem;
+  border: 1px solid rgba(22, 48, 43, 0.12);
+  background-color: #ffffff;
+  padding: 0.85rem 1.1rem;
+  font-size: 0.9375rem;
+  color: var(--color-ink);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.input-field::placeholder {
+  color: rgba(22, 48, 43, 0.35);
+}
+.input-field:focus {
+  outline: none;
+  border-color: var(--color-lime-dark);
+  box-shadow: 0 0 0 3px rgba(198, 239, 79, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
